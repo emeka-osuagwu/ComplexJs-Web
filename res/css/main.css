@@ -1,0 +1,113 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
+	/*font-family: 'Cookie', cursive;*/
+	ul{
+	margin: 0px ;
+	padding: 0px;
+	list-style: none;
+}
+
+
+body{
+	margin:0px;
+	color: gray;
+	background-color: #fff;
+	overflow-x: hidden ;
+
+}
+
+header{
+	background-color: #fff;
+	border-bottom-color: #75ADD8;
+	border-bottom-style: solid;
+	position: fixed;
+	width: 100%;	
+}
+
+
+header .brand-logo{
+	...background-color: gray;
+	width: 10%;
+	display: inline-block;
+}
+
+header .brand-logo img{
+	...background-color: gray;
+	width: 100%;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+
+header .nav{
+	display: inline-block;
+	..background-color: gray;
+	width: 20%;
+	float: right;
+	margin-right: 1px;
+	color: #75ADD8;
+}
+header .nav ul{
+}
+
+header .nav ul li{
+	display: inline-block;
+	
+}
+header .nav ul a li{
+	color: #75ADD8;
+	padding: 10px;
+}
+
+
+
+.color-red{
+	color: rgb(221, 17, 68);
+}
+
+
+.color-blue{
+	color: blue;
+}
+
+.break{
+	display: block;
+	margin: 10px;
+	margin-left: 10px;
+	color: #333;
+}
+
+.jump-item{
+	float: right;
+	font-size: 15px;
+	text-decoration: none;
+}
+.jump-item a{
+	vertical-align: middle;
+	text-decoration: none;
+	margin: 3px;
+	color:rgb(221, 17, 68);
+}
+.jump-item a:active{
+	color: #000;
+}
+
+::-webkit-scrollbar
+{
+  width: 4px;  /* for vertical scrollbars */
+  height: 12px; /* for horizontal scrollbars */
+  border-radius: 100%;
+}
+
+::-webkit-scrollbar-track
+{
+  background: #75ADD8;
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: #75ADD8;
+}
+

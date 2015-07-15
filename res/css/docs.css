@@ -1,0 +1,18 @@
+.main-con{
+	padding-top: 41px;
+}
+
+.main-con .l{
+	width: 20%;
+	background-color: gray;
+	display: inline-block;
+	position: fixed;
+	height: 100%;
+}
+
+.main-con .r{
+	width: 79.40%;
+	..background-color: gray;
+	display: inline-block;
+	float: right;
+}
